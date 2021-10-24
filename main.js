@@ -14,7 +14,7 @@ function changeSocialMediaLinks() {
 }
 
 changeSocialMediaLinks()
-
+/*
 let changeColorEnter = document.getElementById('github')
 changeColorEnter.addEventListener('mouseenter', function () {
   changeColorEnter.style.color = 'orange'
@@ -24,7 +24,7 @@ let changeColorLeft = document.getElementById('github')
 changeColorLeft.addEventListener('mouseout', function () {
   changeColorLeft.style.color = ''
 })
-
+*/
 function getGitHubProfileInfos() {
   const url = `https://api.github.com/users/${LinksSocialMedia.github}`
 

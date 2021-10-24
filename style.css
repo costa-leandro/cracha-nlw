@@ -15,7 +15,21 @@ body {
 body {
   display: grid;
   place-items: center;
-  background-color: black;
+  background-image: linear-gradient(
+    to left bottom,
+    #ff6f00,
+    #f1473e,
+    #d22c5a,
+    #a62869,
+    #742c6a,
+    #5b2e63,
+    #442c59,
+    #31294b,
+    #2f2a43,
+    #2d2a3b,
+    #2c2a32,
+    #2a2a2a
+  );
 }
 
 main {
